@@ -1,23 +1,21 @@
-import logo from "./logo.svg";
-import "./App.css";
-
-function App() {
+import HelloWorld from "./component/01-hello-world/hello-world";
+import Jsx1 from "./component/03-jsx/jsx1";
+import Jsx2 from "./component/03-jsx/jsx2";
+import Jsx3 from "./component/03-jsx/jsx3";
+import Jsx4 from "./component/03-jsx/jsx4";
+import Jsx5 from "./component/03-jsx/jsx5";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello React</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* 
+      <HelloWorld />
+      <Jsx1 />
+      <Jsx2 />
+      <Jsx3 /> 
+      <Jsx4 />
+      */}
+      <Jsx5 />
     </div>
   );
-}
-
+};
 export default App;
