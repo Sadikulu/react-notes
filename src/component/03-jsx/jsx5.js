@@ -1,6 +1,7 @@
 import React from "react";
 const Jsx5 = () => {
   const names = ["Ali", "Veli", "Ayşe", "Fatma"];
+  const cities = ["İstanbul", "İzmir", "London", "Paris", "Zürih"];
   return (
     <div>
       <ul>
@@ -8,6 +9,11 @@ const Jsx5 = () => {
           <li key={index}>{name}</li>
         ))}
       </ul>
+      <select>
+        {cities.map((city, index) => (
+          <option key={index}>{city}</option>
+        ))}
+      </select>
     </div>
   );
 };
