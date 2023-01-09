@@ -13,6 +13,9 @@ import Clock1 from "./component/05-clock1/clock1";
 import Greetings from "./component/06-props1/greetings";
 import Products from "./component/07-props-2/products";
 import Clock2 from "./component/08-clock2/clock2";
+import Gallery from "./component/09-image/gallery";
+import Image from "./component/09-image/image";
+import ProfileCard from "./component/10-profile-card/profile-card";
 const App = () => {
   return (
     <div>
@@ -31,8 +34,18 @@ const App = () => {
       <Clock1 />
       <Greetings />
       <Products />
-      */}
       <Clock2 textColor="red" bgColor="yellow" />
+      <Image />
+      <Gallery />
+      */}
+      <ProfileCard
+        avatar="profile.jpg"
+        name="Ali Gel"
+        location="Turkey, Istanbul"
+        shot="1"
+        followers="5"
+        following="10"
+      />
     </div>
   );
 };
