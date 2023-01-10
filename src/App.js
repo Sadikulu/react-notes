@@ -16,6 +16,11 @@ import Clock2 from "./component/08-clock2/clock2";
 import Gallery from "./component/09-image/gallery";
 import Image from "./component/09-image/image";
 import ProfileCard from "./component/10-profile-card/profile-card";
+import BootstrapDynamic from "./component/11-bootstrap/bootstrap-dynamic";
+import BootstrapStatic from "./component/11-bootstrap/bootstrap-static";
+import Icon from "./component/12-icons/icon";
+import Event from "./component/13-event/event";
+import Shop from "./component/14-products/shop";
 const App = () => {
   return (
     <div>
@@ -37,7 +42,6 @@ const App = () => {
       <Clock2 textColor="red" bgColor="yellow" />
       <Image />
       <Gallery />
-      */}
       <ProfileCard
         avatar="profile.jpg"
         name="Ali Gel"
@@ -46,6 +50,12 @@ const App = () => {
         followers="5"
         following="10"
       />
+      <BootstrapStatic />
+      <BootstrapDynamic />
+      <Icon />
+      <Event />
+      */}
+      <Shop />
     </div>
   );
 };
