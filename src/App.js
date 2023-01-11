@@ -5,6 +5,7 @@ import Jsx3 from "./component/03-jsx/jsx3";
 import Jsx4 from "./component/03-jsx/jsx4";
 import Jsx5 from "./component/03-jsx/jsx5";
 import Jsx6 from "./component/03-jsx/jsx6";
+import Jsx7 from "./component/03-jsx/jsx7";
 import Style1 from "./component/04-styles/style1";
 import Style2 from "./component/04-styles/style2";
 import Style3 from "./component/04-styles/style3";
@@ -21,6 +22,10 @@ import BootstrapStatic from "./component/11-bootstrap/bootstrap-static";
 import Icon from "./component/12-icons/icon";
 import Event from "./component/13-event/event";
 import Shop from "./component/14-products/shop";
+import State from "./component/15-useState/state";
+import Stateless from "./component/15-useState/stateless";
+import Counter from "./component/16-counter/counter";
+import Birthday from "./component/17-birthday/birthday";
 const App = () => {
   return (
     <div>
@@ -54,8 +59,13 @@ const App = () => {
       <BootstrapDynamic />
       <Icon />
       <Event />
-      */}
       <Shop />
+      <Jsx7 />
+      <Stateless />
+      <State />
+      <Counter />
+      */}
+      <Birthday />
     </div>
   );
 };
